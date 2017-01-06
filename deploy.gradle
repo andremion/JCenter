@@ -1,0 +1,25 @@
+ext {
+    bintrayRepo = project.ext.bintrayRepo
+    bintrayName = project.ext.name
+
+    publishedGroupId = project.ext.group
+    artifact = project.ext.artifact
+
+    libraryName = project.ext.name
+    libraryDescription = project.ext.description
+    libraryVersion = project.ext.versionName
+
+    siteUrl = project.ext.url
+    gitUrl = project.ext.vcs
+
+    licenseName = project.ext.licenseName
+    licenseUrl = project.ext.licenseUrl
+    allLicenses = project.ext.allLicenses
+
+    developerId = project.ext.developerId
+    developerName = project.ext.developerName
+    developerEmail = project.ext.developerEmail
+}
+
+apply from: 'https://raw.githubusercontent.com/andremion/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/andremion/JCenter/master/bintrayv1.gradle'
