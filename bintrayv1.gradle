@@ -45,9 +45,8 @@ bintray {
         vcsUrl = gitUrl
         licenses = allLicenses
         publish = true
-        publicDownloadNumbers = true
         version {
-            desc = libraryDescription
+            name = libraryVersion
             gpg {
                 sign = true //Determines whether to GPG sign the files. The default is false
                 passphrase = bintrayGpgPassword
