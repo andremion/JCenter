@@ -10,7 +10,9 @@ ext {
     libraryVersion = project.ext.versionName
 
     siteUrl = project.ext.url
-    gitUrl = project.ext.vcs
+    gitUrl = project.ext.gitUrl
+    vcsUrl = project.ext.vcsUrl
+    issueTracker = project.ext.issueTracker
 
     licenseName = project.ext.licenseName
     licenseUrl = project.ext.licenseUrl
