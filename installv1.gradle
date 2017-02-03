@@ -31,10 +31,9 @@ install {
                     }
                 }
                 scm {
-                    connection gitUrl
-                    developerConnection gitUrl
-                    url siteUrl
-
+                    connection vcsUrl
+                    developerConnection vcsUrl
+                    url gitUrl
                 }
             }
         }
